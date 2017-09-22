@@ -1,0 +1,21 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Design patterns practice",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npm run tslint \"src/**/*.ts\"",
+    "tslint": "tslint",
+    "test": "tsc && tape dist/**/*.spec.js"
+  },
+  "author": "Ernesto Mancebo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.30",
+    "@types/tape": "^4.2.30",
+    "tape": "^4.8.0",
+    "tslint": "^5.7.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "typescript": "^2.5.2"
+  }
+}
