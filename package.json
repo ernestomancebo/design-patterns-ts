@@ -4,6 +4,7 @@
   "description": "Design patterns practice",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npm install -g tape",
     "lint": "npm run tslint \"src/**/*.ts\"",
     "tslint": "tslint",
     "test": "tsc && tape dist/**/*.spec.js"
